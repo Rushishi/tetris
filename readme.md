@@ -1,0 +1,1 @@
+This is a simple in-console tetris game. Play with keys a,s,d,q,e.
