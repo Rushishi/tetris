@@ -130,12 +130,12 @@ def i_check_move_blocks(direction):
             move = False
             if direction[0] == 1:
                 settle_blocks()
-            continue
+            break
         elif field[c[0]+block[0]+direction[0]][c[1]+block[1]+direction[1]] == 2:
             move = False
             if direction[0] == 1:
                 settle_blocks()
-            continue
+            break
     return move   
 
 #this function moves blocks in a given direction
